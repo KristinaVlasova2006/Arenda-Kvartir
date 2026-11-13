@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8556fb44-3705-454a-98da-cb8b7173243a">
+  <producedTypes>
+    <objectType typeId="fd731b05-e283-4eb1-bc38-deadb5e89425" valueTypeId="203deeaa-09e6-4784-9c98-8b6e64fc1c66"/>
+    <refType typeId="ba516e85-ac3e-4985-8d8c-342def7124de" valueTypeId="84b12c69-2425-49a5-b8a0-48b3d61e99a2"/>
+    <selectionType typeId="f808bc2a-36ef-4003-8c7a-c1502b7218f7" valueTypeId="e56f852e-3927-45a4-aa73-3222c447676c"/>
+    <listType typeId="0ce75220-37c8-4f1d-b7d6-0cc8fdcba99c" valueTypeId="06079557-b5ea-48a1-ba59-fd87f9095a7f"/>
+    <managerType typeId="bfab981e-c621-4232-98c5-da205ee1597a" valueTypeId="fba9f41d-9cbc-4b19-a090-0ea3c3e10987"/>
+  </producedTypes>
+  <name>УстановкаЦенАренды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка цен аренды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаЦенАренды.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Установка цен аренды</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.СтоимостьАренды</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="028f66f1-3065-4a6a-b9bf-1e73b30fbcd0">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="56fb7423-1971-4897-8415-8af9c232b286">
+    <producedTypes>
+      <objectType typeId="ecbc3fa1-fc76-4e68-8230-f239b115cfd3" valueTypeId="aa469644-24da-40b9-80c5-85bd79ccf3dc"/>
+      <rowType typeId="a3f8b860-b788-402a-a6bf-e0fbb50ea144" valueTypeId="ff6ea4d8-75f3-4f33-878f-3fc06bac9976"/>
+    </producedTypes>
+    <name>Цены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цены</value>
+    </synonym>
+    <attributes uuid="e858cebc-98e2-4023-b830-935222a6de2c">
+      <name>Квартира</name>
+      <synonym>
+        <key>ru</key>
+        <value>Квартира</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Квартиры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="94c58309-d69f-4b8c-946c-7db27f5fe092">
+      <name>ЦенаЗаСутки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена за сутки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

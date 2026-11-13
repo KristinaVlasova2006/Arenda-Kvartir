@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d416d28-37a4-4096-bce9-15da75c2a5e0">
+  <producedTypes>
+    <selectionType typeId="90012a7e-f318-4da6-bd2a-6cd36b49979f" valueTypeId="b9a9d394-731c-4351-aded-8dd44df224c5"/>
+    <listType typeId="43b07b51-5523-4f93-a611-911973530b2b" valueTypeId="100265b5-6c1a-4470-86ea-a40965876efe"/>
+    <managerType typeId="d60720fa-e384-426a-9b3d-c4d9a6439ab3" valueTypeId="974d31cd-c2db-48af-a25c-8a1c9629ba97"/>
+    <recordSetType typeId="7e5c0175-c8bc-4222-afa1-98d55313257e" valueTypeId="c36faf0f-8685-4f61-a4df-05daf7dc1568"/>
+    <recordKeyType typeId="a2b18991-dfd7-4736-aed0-d8ef91845166" valueTypeId="a6636cc5-98bc-49d1-b367-8fbe38ebad0f"/>
+    <recordType typeId="23ac1c07-5b2e-4c22-b9fc-28b2d9ebf786" valueTypeId="550203a3-ea7c-43ee-a876-3fa5dd25bdd2"/>
+    <recordManagerType typeId="17e5a05f-23c1-4b30-9df1-e5149a688fca" valueTypeId="93f06905-710d-4483-bd36-c36f6e94fb56"/>
+  </producedTypes>
+  <name>СтоимостьАренды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость аренды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0fac7b12-86bc-41cd-b8e0-e1876bd7250b">
+    <name>ЦенаЗаСутки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена за сутки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="03792b4b-a8ec-4313-95e4-a46005eab6e0">
+    <name>Квартира</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартира</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Квартиры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc6aca2c-c40f-4e3f-bec0-f986e8765b12">
+  <producedTypes>
+    <refType typeId="7b822a27-a837-49fd-ba02-02cb71ad9a22" valueTypeId="b335dd1f-f1a1-4351-98b7-034f881fe4a8"/>
+    <listType typeId="c3e570b9-6830-40e6-9493-73a99ef7e152" valueTypeId="dbb748fb-5ab7-4f08-964b-d9984fa37ce3"/>
+    <managerType typeId="60b90196-57c5-40fe-a2d1-6d391a0d5822" valueTypeId="472f51b6-9c2a-4589-be93-80487eb85db0"/>
+  </producedTypes>
+  <name>Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="07d2da6e-d1c1-4146-aee4-3524c6f633cb">
+    <name>Администратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="877268a3-4565-4b92-84b2-8f5e9d3dc8a7">
+    <name>МенеджерПоАренде</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер по аренде</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="636884e8-1a78-432b-a790-11b756d6e6fd">
+    <name>СотрудникНСИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник НСИ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

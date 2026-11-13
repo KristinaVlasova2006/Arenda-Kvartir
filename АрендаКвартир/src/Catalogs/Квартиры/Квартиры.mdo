@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d4d0ceb-82b9-4418-bbf6-62442467fd8c">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d4d0ceb-82b9-4418-bbf6-62442467fd8c">
   <producedTypes>
     <objectType typeId="5f687f66-0f74-4ecd-8a2f-a7efd2b4ed6e" valueTypeId="f1393995-a38b-4ee0-9a5b-daed5a6d5d64"/>
     <refType typeId="5ac839ca-6b96-4e8d-9470-bb61d817dc8e" valueTypeId="d2f57277-85a2-4359-980d-81c0537e38b2"/>
@@ -34,4 +34,29 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Квартиры.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="8b267a7a-1438-40ec-9811-84869ffd0e9e">
+    <name>Фото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2daa3862-c616-4b2e-adfe-e638d462446c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
