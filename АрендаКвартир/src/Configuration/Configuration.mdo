@@ -65,6 +65,8 @@
   <catalogs>Catalog.Квартиры</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.СтатьиРасходов</catalogs>
+  <documents>Document.КосвенныеРасходы</documents>
   <documents>Document.ПоступлениеНаРасчётныйСчёт</documents>
   <documents>Document.ПродлениеАренды</documents>
   <documents>Document.СдачаВАренду</documents>
@@ -73,9 +75,12 @@
   <enums>Enum.ВидыДоговоров</enums>
   <enums>Enum.Должности</enums>
   <enums>Enum.СтавкиНДС</enums>
+  <reports>Report.АктСверкиПоДоговору</reports>
   <reports>Report.Аренда</reports>
+  <reports>Report.ЧистаяПрибыльАренды</reports>
   <informationRegisters>InformationRegister.СтоимостьАренды</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчётыСПокупателями</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчётыССобственниками</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.КосвенныеРасходы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6b2a2c7-5d33-4b88-ad8d-4e14f953a10c">
+  <producedTypes>
+    <selectionType typeId="8b1d9c90-10b7-4f42-be67-4e5f554faec5" valueTypeId="6f0b16cd-862d-4495-a0c9-c7e54c88435e"/>
+    <listType typeId="20266acb-34c8-4bca-b049-9a2f842c593f" valueTypeId="27a9ec63-e2a7-47cc-ae93-ae238c4d9ed8"/>
+    <managerType typeId="74aaa3fd-0382-4be5-97f7-d6785d2bae78" valueTypeId="004ec4d6-e2bf-4eec-af18-0fa1d987a91f"/>
+    <recordSetType typeId="c4862b7f-dc97-4281-86b4-57ca898e848a" valueTypeId="05d52edc-6378-440c-9ff2-173599073852"/>
+    <recordKeyType typeId="09c035ec-4503-4352-80e8-730ffc5bc4f6" valueTypeId="bae385ac-f675-4049-91f3-0f2a1972d699"/>
+    <recordType typeId="48e0c57d-13b8-47b1-ba0a-0ed090dea196" valueTypeId="dc4f3786-5fae-46a2-a289-c75f652f4a2e"/>
+  </producedTypes>
+  <name>КосвенныеРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Косвенные расходы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="f88f25d1-a86a-4e55-9954-134af7aeea48">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="3072011e-0bdf-49e0-aba0-28fcd2720ead">
+    <name>СтатьяРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья расходов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
