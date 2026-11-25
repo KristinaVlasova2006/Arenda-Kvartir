@@ -65,13 +65,17 @@
   <catalogs>Catalog.Квартиры</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.ПоступлениеНаРасчётныйСчёт</documents>
   <documents>Document.ПродлениеАренды</documents>
   <documents>Document.СдачаВАренду</documents>
+  <documents>Document.СписаниеСРасчётногоСчёта</documents>
   <documents>Document.УстановкаЦенАренды</documents>
   <enums>Enum.ВидыДоговоров</enums>
   <enums>Enum.Должности</enums>
   <enums>Enum.СтавкиНДС</enums>
   <reports>Report.Аренда</reports>
   <informationRegisters>InformationRegister.СтоимостьАренды</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВзаиморасчётыСПокупателями</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВзаиморасчётыССобственниками</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>

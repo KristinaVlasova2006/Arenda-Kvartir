@@ -9,5 +9,8 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ПродлениеАренды</content>
   <content>Document.СдачаВАренду</content>
+  <content>Document.ПоступлениеНаРасчётныйСчёт</content>
+  <content>Document.СписаниеСРасчётногоСчёта</content>
+  <content>Document.УстановкаЦенАренды</content>
   <parentSubsystem>Subsystem.Аренда</parentSubsystem>
 </mdclass:Subsystem>

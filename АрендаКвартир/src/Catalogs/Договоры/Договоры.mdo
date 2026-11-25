@@ -220,6 +220,26 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="6907da3e-42f7-4574-a1d0-76594748c651">
+    <name>ПроцентКомиссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент комиссии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="b575a16b-1376-4315-90e7-61d497222f5f">
     <name>ФормаЭлемента</name>
     <synonym>
